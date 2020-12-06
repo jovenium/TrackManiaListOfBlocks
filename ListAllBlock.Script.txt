@@ -1,0 +1,23 @@
+#RequireContext CMapEditorPlugin
+
+/**
+* plugin made by Jovenium for TrackMania2020
+* 
+* press ctrl+g to check logs
+* warning : all your costum blocks are listed
+*/
+
+main(){
+	
+	log("Start ListAllBlock by Jovenium.");
+	
+	foreach( Block in BlockModels	)	{
+		log(Block.Name);
+	}
+	log("---END LisAllBlock.");
+	
+	while(True)
+	{
+		yield;
+	}
+}
